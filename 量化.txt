@@ -1,0 +1,5 @@
+df.loc[df['shield'] > 6, ['max_speed']] 指定列where
+df.loc[['viper', 'sidewinder']]  指定行
+df.loc['cobra', 'shield']   行,列定位数据  数组第一个表示行,第二个表示列
+                            多个可以用[] 可以以切片形式(行)或字段名(列)
+                            example [:,[字段名...]]  所有行,选字段显示
